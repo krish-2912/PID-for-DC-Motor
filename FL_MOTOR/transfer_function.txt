@@ -1,0 +1,21 @@
+Dead zone points : 65
+Step blocks found: 6
+Ramp points      : 13
+✓ Dead zone plot saved.
+✓ Step response plot saved.
+✓ Linearity plot saved.
+
+===== IDENTIFIED PARAMETERS =====
+   PWM  K (RPM/PWM)    τ (s)   RPM_ss  t63 (s)
+------------------------------------------------------
+    60       1.8742   0.0387    111.9   0.0400
+    90       1.9495   0.0391    174.8   0.0400
+   128       1.9939   0.0383    254.9   0.0400
+   160       2.0199   0.0385    322.8   0.0400
+   200       2.0461   0.0392    408.5   0.0400
+   230       2.2111   0.0400    507.0   0.0400
+
+Mean K   = 2.0158 RPM/PWM  (std = 0.1033)
+Mean τ   = 0.0390 s        (std = 0.0006)
+
+Transfer Function:  G(s) = 2.016 / (0.039·s + 1)
